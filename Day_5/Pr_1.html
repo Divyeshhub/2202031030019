@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+   <table border="2px" align="center">
+  <form >
+    <tr>
+        <td colspan="3">
+        <h1>
+            <center>
+                Registration Form
+            </center>
+        </h1>
+    </td>
+    </tr>
+    <tr>
+        <td><i class="fa-solid fa-user"></i></td>
+        <td><label for="first_name">First Name:</label></td>
+        <td><input type="text" id="first_name" name="first_name" required></td>
+    </tr>
+    <tr>
+        <td><i class="fa-solid fa-user"></i></td>
+        <td><label for="last_name">Last Name:</label></td>
+        <td><input type="text" id="last_name" name="last_name" required></td>
+    </tr>
+    
+    <tr>
+        <td><i class="fa-solid fa-user"></i></td>
+        <td><label for="middle_name">Middle Name:</label></td>
+        <td><input type="text" id="middle_name" name="middle_name"></td>
+    </tr>
+
+    <tr>
+        <td><i class="fa-solid fa-phone"></i></td>
+        <td><label for="phone_number">Phone Number:</label></td>
+        <td><input type="tel" id="phone_number" name="phone_number" required></td>
+    </tr>
+
+    <tr>
+        <td><i class="fa-solid fa-envelope"></i></td>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" required></td>
+    </tr>
+
+    <tr>
+        <td><i class="fa-solid fa-venus-mars"></i></td>
+        <td><label for="gender">Gender:</label></td>
+        <td><select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select></td>
+    </tr>    
+
+    <tr>
+        <td><i class="fa-solid fa-location-dot"></i></td>
+        <td><label for="pincode">Pincode:</label></td>
+        <td><input type="text" id="pincode" name="pincode" required></td>
+    </tr>
+
+    <tr>
+        <td><i class="fa-solid fa-lock"></i></td>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" name="password" required></td>
+    </tr> 
+
+    <tr>
+        <td><i class="fa-solid fa-lock"></i></td>
+        <td><label for="confirm_password">Confirm Password:</label></td>
+        <td><input type="password" id="confirm_password" name="confirm_password" required></td>
+    </tr>
+
+    <tr>
+        <td><i class="fa-solid fa-file-arrow-up"></i></td>
+        <td><label for="file_upload">Choose File:</label></td>
+        <td><input type="file" id="file_upload" name="file_upload"></td>
+    </tr>
+
+    <tr>
+        <td><i class="fa-solid fa-calendar-days"></i></td>
+        <td><label for="date_of_birth">Date of Birth:</label></td>
+        <td><input type="date" id="date_of_birth" name="date_of_birth" required></td>
+    </tr> 
+
+    <tr>
+        <td><i class="fa-solid fa-memo-circle-check"></i></td>
+        <td colspan="2"><input type="checkbox" id="terms_conditions" name="terms_conditions" required>
+        <label for="terms_conditions">I accept the terms and conditions</label></td>
+    </tr>
+
+    <tr>
+        <td colspan="3"><center><input type="submit" value="Submit"></center></td>
+    </tr>
+  </form>
+</table>
+</body>
+</html>

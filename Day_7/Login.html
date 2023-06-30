@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <title>Login Register</title>
+</head>
+
+  <div class="login-wrap">
+  <div class="login-html">
+    <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+    <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+    
+    
+    <div class="login-form" >
+      <div class="sign-in-htm">
+        <form action="/action_page.php" class="was-validated">
+        <div class="group">
+          <i class="fa-solid fa-user"></i>
+          <label for="user" class="label"></label>
+          <input id="user" type="text" class="input" placeholder="Enter Username" required="">
+          
+        </div>
+
+
+        <div class="group">
+          <i class="fa-solid fa-lock"></i>
+          <label for="pass" class="label"></label>
+          <input id="pass" type="password" class="input" data-type="password" placeholder="Enter Password" maxlength="15" required="">
+         
+        </div>
+
+        <div class="group">
+          <input id="check" type="checkbox" class="check" checked required>
+          <label for="check"><span class="icon"></span> Keep me Signed in</label>
+        </div>
+        <div class="group">
+          
+          <a href="Hello.html"><input type="submit" class="button" value="Sign In"></a>
+        </div>
+        <div class="hr"></div>
+        <div class="foot-lnk">
+          <a href="index.html">Forgot Password?</a>
+        </form>
+        </div>
+      </div>
+    
+
+
+
+      <div class="sign-up-htm">
+        <form action="/action_page.php" class="was-validated">
+        <div class="group">
+            
+          <i class="fa-solid fa-user"></i>
+          <label for="user" class="label"></label>
+          <input id="user" type="text" class="input" placeholder="Enter Username" required="">
+      
+        </div>
+
+        <div class="group">
+            <i class="fa-solid fa-phone"></i>
+            <label for="tel" class="label"></label>
+            <input id="tel" type="tel" class="input" data-type="tel" placeholder="Enter Number" maxlength="10" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3} required>
+        </div>
+
+        <div class="group">
+            <i class="fa-solid fa-envelope"></i>
+          <label for="email" class="label"></label>
+          <input id="email" type="email" class="input" placeholder="Enter Email" required>
+        </div>
+    
+        <div class="group">
+          <i class="fa-solid fa-book"></i>
+          <label for="course" class="label"></label>
+          <input id="course" type="text" class="input" placeholder="Enter Course Name" required>
+        </div>
+       
+        <div class="group">
+          <i class="fa-solid fa-calendar-days"></i>
+          <label for="date_of_birth">addmission Date</label>
+          <input type="date" id="date_of_birth" name="date_of_birth" required>
+        </div>
+ 
+        <div class="group">
+          <i class="fa-solid fa-lock"></i>
+          <label for="pass" class="label"></label>
+          <input id="pass" type="password" class="input" data-type="password" placeholder="Enter Password" maxlength="15" required>
+        </div>
+        <div class="group">
+            <i class="fa-solid fa-lock"></i>
+          <label for="pass" class="label"></label>
+          <input id="pass" type="password" class="input" data-type="password" placeholder="Re-Enter Password" maxlength="15" required>
+        </div>
+
+        <div class="group">
+          
+          <input type="checkbox" id="terms_conditions" name="terms_conditions" required>
+          <label for="terms_conditions">I accept college rules and regulations</label>
+        </div>
+        
+        <div class="group">
+          <input type="submit" class="button" value="Sign Up">
+        </div>
+        <div class="hr"></div>
+        <div class="foot-lnk">
+          <label for="tab-1">
+            
+            Already Member?
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+
+<body>
+
+</body>
+
+</html>

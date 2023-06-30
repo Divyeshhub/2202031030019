@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For In Loop JS</title>
+</head>
+<body>
+    <h2>For In Loop</h2>
+    
+
+    <p id="forin"></p>
+
+    <script>
+        const numbers = [5, 88, 32, 6, 2];
+
+        let txt = "";
+        for (let x in numbers) {
+            txt += numbers[x] + "<br>"; 
+        }
+
+        document.getElementById("forin").innerHTML = txt;
+    </script>
+</body>
+</html>
